@@ -24,8 +24,8 @@ class Counter extends React.Component {
 					<p>Count: {this.state.count}</p>
 
 					<article>
-						<button onClick={this.increase}>Increase</button>
-						<button onClick={this.decrease}>Decrease</button>
+						<button onClick={this.increase}>Increment</button>
+						<button onClick={this.decrease}>Decrement</button>
 					</article>
 				</section>
 			</>
